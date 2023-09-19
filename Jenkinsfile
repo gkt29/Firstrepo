@@ -16,5 +16,10 @@ pipeline {
                 '''
             }
         }
+        stage(''){
+            steps {
+                sh 'echo "Releasing"'
+            }
+        }
     }
 }
