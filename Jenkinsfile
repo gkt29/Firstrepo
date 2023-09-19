@@ -16,7 +16,7 @@ pipeline {
                 '''
             }
         }
-        stage(''){
+        stage('Release'){
             steps {
                 sh 'echo "Releasing"'
             }
